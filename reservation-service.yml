@@ -1,0 +1,16 @@
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/petclinic_vet?useSSL=false&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+  sql:
+    init:
+      mode: always # 초기 schema.sql, data.sql 실행
+      platform: mysql
+
+
+  show-sql: true
+  format-sql: true
+logging:
+  level:
+    io.r2dbc: INFO
