@@ -3,7 +3,7 @@ server:
 
 spring:
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/petclinic_reservation?useSSL=false?useSSL=false&serverTimezone=Asia/Seoul
+    url: r2dbc:mysql://localhost:3306/petclinic_reservation?useSSL=false&serverTimezone=Asia/Seoul
     username: root
     password: 1234
 #  ?useSSL=false&serverTimezone=Asia/Seoul
